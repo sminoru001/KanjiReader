@@ -56,6 +56,8 @@
     "zod-validation-error": "^3.4.0"
   },
   "dependencies": {
+    "react-native-nitro-image": "^0.15.1",
+    "react-native-nitro-modules": "^0.36.1",
     "react-native-vision-camera": "^5.1.0",
     "react-native-vision-camera-ocr": "^0.1.2",
     "react-native-worklets-core": "^1.6.3"
