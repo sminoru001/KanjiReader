@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "mZvfksn72kJOwsT1oIXSS"
+uri = "file://attached_assets/kanji-reader.zip"
+type = "unspecified"
+title = "kanji-reader.zip"
