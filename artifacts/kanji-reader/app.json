@@ -4,35 +4,27 @@
     "slug": "kanji-reader",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "kanji-reader",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/images/icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seuusuario.kanjireader",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Este aplicativo precisa acessar a câmera para ler Kanjis em tempo real."
+      }
     },
-    "android": {},
-    "web": {
-      "favicon": "./assets/images/icon.png"
+    "android": {
+      "package": "com.seuusuario.kanjireader",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
     },
     "plugins": [
       [
-        "expo-router",
+        "react-native-vision-camera",
         {
-          "origin": "https://replit.com/"
+          "cameraPermissionText": "Este aplicativo precisa de acesso à câmera para reconhecer Kanjis em tempo real."
         }
-      ],
-      "expo-font",
-      "expo-web-browser"
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+      ]
+    ]
   }
 }
