@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@kanji-reader/db": "workspace:*",
+    "@workspace/db": "workspace:*",
     "@replit/connectors-sdk": "^0.4.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
