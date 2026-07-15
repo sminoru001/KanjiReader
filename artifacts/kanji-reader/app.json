@@ -7,13 +7,13 @@
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.seuusuario.kanjireader",
+      "bundleIdentifier": "com.sminoru.kanjireader",
       "infoPlist": {
         "NSCameraUsageDescription": "Este aplicativo precisa acessar a câmera para ler Kanjis em tempo real."
       }
     },
     "android": {
-      "package": "com.seuusuario.kanjireader",
+      "package": "com.sminoru.kanjireader",
       "permissions": [
         "android.permission.CAMERA"
       ]
