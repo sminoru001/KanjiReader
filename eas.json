@@ -10,9 +10,20 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
-  },
-  "submit": {
-    "production": {}
+    "production": {
+      "env": {
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      },
+      "android": {
+        "pnpm": {
+          "frozenLockfile": false
+        }
+      },
+      "ios": {
+        "pnpm": {
+          "frozenLockfile": false
+        }
+      }
+    }
   }
 }
