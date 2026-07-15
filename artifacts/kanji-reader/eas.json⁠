@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 10.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env": {
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
+        "EAS_NO_FROZEN_LOCKFILE": "1"
+      }
+    }
+  }
+}
