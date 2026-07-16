@@ -1,0 +1,3 @@
+# Ignorar tudo exceto a pasta do aplicativo
+*
+!artifacts/kanji-reader/
